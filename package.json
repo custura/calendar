@@ -1,0 +1,44 @@
+{
+	"name": "custura-calendar",
+	"version": "1.0.0",
+	"description": "Livewire calendar for Laravel",
+	"contributors": [
+		{
+			"name": "Custura",
+			"email": "mail@custura.fr",
+			"url": "https://custura.de"
+		}
+	],
+	"private": true,
+	"devDependencies": {
+        "@alpinejs/focus": "^3.10.5",
+        "@tailwindcss/forms": "^0.5.2",
+        "@tailwindcss/typography": "^0.5.0",
+        "alpinejs": "^3.0.6",
+        "autoprefixer": "^10.4.7",
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.2",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.1.0",
+        "vite": "^4.0.0"
+    },
+	"dependencies": {
+		"flatpickr": "^4.6.13"
+	},
+	"browserslist": {
+		"production": [
+			"last 2 versions",
+			"> 0.2%",
+			"IE 10"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build"
+	}
+}
